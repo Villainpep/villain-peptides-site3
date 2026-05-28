@@ -241,8 +241,8 @@ function App() {
         <section id="checkout" className="section">
           <div className="section-head single">
             <p className="eyebrow green">Secure Order Request</p>
-            <h2>Checkout-Style Request</h2>
-            <p>This section is designed like checkout, but can be used as an inquiry/order-request flow before connecting any payment processor.</p>
+            <h2>Checkout- </h2>
+            <p>To place an order, please submit a request below and list the products you want to purchase, I also carry other products, such as Semaglutide 10 mg and 20 mg, GHK-CU 100, and HGH 24iu, Nasal sprays such as Ara 290 10mg Semax 10mg..</p>
           </div>
           <Card className="checkout-card">
             <div>
@@ -285,21 +285,7 @@ function App() {
           </div>
         </section>
 
-        <section id="contact" className="section contact-section">
-          <Card className="contact-card">
-            <div>
-              <Mail className="contact-icon" />
-              <h2>Request documentation or wholesale info.</h2>
-              <p>Use this section for a contact form, COA lookup, lab verification, or business inquiry intake.</p>
-            </div>
-            <div className="contact-form">
-              <input placeholder="Name" />
-              <input placeholder="Email" />
-              <textarea placeholder="Message" />
-              <Button>Send Inquiry</Button>
-            </div>
-          </Card>
-        </section>
+        
       </main>
 
       <footer>
