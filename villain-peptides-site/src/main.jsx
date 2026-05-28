@@ -261,13 +261,15 @@ function App() {
               </div>
               <p className="processor-note"><Lock size={16} /> Payment processor connection should be reviewed for compliance before launch.</p>
             </div>
-            <div className="checkout-form">
-              <input placeholder="Full name" />
-              <input placeholder="Email" />
-              <input placeholder="Shipping state / region" />
-              <textarea placeholder="Research organization / notes" />
+            <form action="https://formsubmit.co/villainpeps@gmail.com" method="POST" className="checkout-form">
+  <input type="hidden" name="_captcha" value="false" />
+  <input type="hidden" name="_subject" value="New Villain Peptides Order Request" />
+              <input name="name" placeholder="Full name" />
+              <input name="email" placeholder="Email" />
+              <input name="location" placeholder="Shipping state / region" />
+              <textarea name="notes" placeholder="Research organization / notes" />
               <Button>Submit Order Request</Button>
-            </div>
+            </form>
           </Card>
         </section>
 
