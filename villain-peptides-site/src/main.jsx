@@ -126,7 +126,7 @@ function App() {
     </div>
 
     <p className="hero-trust">
-      🚚 Ships within 24 hours • 🇺🇸 USA Based • 🔬 Batch Verified • 📦 Free Shipping Available
+      🚚 Ships within 24 hours • USA Based • 🔬 Batch Verified • 📦 Free Shipping Available
     </p>
 
     <p className="disclaimer">
