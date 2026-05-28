@@ -103,48 +103,53 @@ function App() {
 
       <main id="home">
         <section className="hero">
-          <div className="glow glow-purple"></div>
-          <div className="glow glow-green"></div>
+  <div>
+    <div className="pill">
+      <Beaker size={16} /> Laboratory research materials
+    </div>
 
-          <div className="hero-grid">
-            <motion.div initial={{ opacity: 0, y: 18 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
-              <div className="pill">
-                <Beaker size={16} /> Laboratory research materials
-              </div>
-              <h1>Villain-grade research peptides for elite labs.</h1>
-              <p className="hero-copy">
-                A dark purple and neon green research-only catalog with batch transparency, COA requests, product details, and an order-request checkout flow.
-              </p>
-              <div className="hero-actions">
-                <a href="#products"><Button>View Catalog</Button></a>
-                <a href="#contact"><Button variant="outline">Contact Us</Button></a>
-              </div>
-              <p className="disclaimer">
-                Disclaimer: Villain Peptides products are strictly for laboratory research use only. Not for human consumption, medical use, diagnosis, treatment, or prevention of disease.
-              </p>
-            </motion.div>
+    <h1>Villain-grade research peptides for elite labs.</h1>
 
-            <motion.div initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.7 }}>
-              <Card className="featured-card">
-                <div className="featured-inner">
-                  <div className="featured-head">
-                    <div>
-                      <p>Featured batch</p>
-                      <h2>Tirzepatide 60 mg</h2>
-                    </div>
-                    <span>COA Ready</span>
-                  </div>
-                  <div className="specs">
-                    <div><span>Format</span><strong>Lyophilized vial</strong></div>
-                    <div><span>Use</span><strong>Research only</strong></div>
-                    <div><span>Lot</span><strong>VP-TZ60-0526A</strong></div>
-                    <div><span>Shipping</span><strong>Free</strong></div>
-                  </div>
-                </div>
-              </Card>
-            </motion.div>
-          </div>
-        </section>
+    <p className="hero-copy">
+      A USA-based research supply catalog with fast domestic fulfillment,
+      batch verification, COA requests, and premium research compounds.
+    </p>
+
+    <div className="hero-actions">
+      <a href="#products">
+        <Button>View Catalog</Button>
+      </a>
+
+      <a href="#contact">
+        <Button variant="outline">Contact Us</Button>
+      </a>
+    </div>
+
+    <p className="hero-trust">
+      🚚 Ships within 24 hours • 🇺🇸 USA Based • 🔬 Batch Verified • 📦 Free Shipping Available
+    </p>
+
+    <p className="disclaimer">
+      Disclaimer: Villain Peptides products are strictly for laboratory
+      research use only. Not for human consumption, medical use, diagnosis,
+      treatment, or prevention of disease.
+    </p>
+  </div>
+
+  <div className="hero-card">
+    <span>COA Ready</span>
+
+    <h2>Tirzepatide 60 mg</h2>
+
+    <p>Lot: VP-TZ60-0526A</p>
+
+    <p>Ships within 24 hours</p>
+
+    <p>USA Based</p>
+
+    <p>Free Shipping Available</p>
+  </div>
+</section>
 
         <section id="quality" className="section">
           <div className="feature-grid">
